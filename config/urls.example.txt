@@ -1,0 +1,5 @@
+# Lista de URLs a capturar (una por línea)
+# Las líneas que comienzan con # se ignoran
+
+https://example.com/
+https://example.com/pagina

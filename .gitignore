@@ -1,0 +1,42 @@
+# Entorno virtual
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Salidas generadas (no van en el repo)
+salida/capturas/*/
+salida/backups/*
+salida/extraccion/*
+salida/logs/*
+salida/historial_hashes.json
+tablero.html
+
+# Mantener estructura de carpetas vacías
+!salida/capturas/.gitkeep
+!salida/backups/.gitkeep
+!salida/extraccion/.gitkeep
+!salida/logs/.gitkeep
+
+# URLs personales
+config/urls.txt
+config/historial_hashes.json
+
+# Sesiones de login (cookies sensibles)
+config/sesiones/
+
+# Cookies / sesiones (datos sensibles)
+config/sesiones/
+
+# Docs auto-generados
+docs/documentacion.html
+docs/documentación.html
+docs/documentacion.pdf
+docs/documentación.pdf
+
+# Archivos personales / notas
+aaa_*.txt
+*.tmp
