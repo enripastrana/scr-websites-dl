@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(chmod:*)",
+      "Bash(python3:*)",
+      "Bash(/media/centinela/NOMADA/1_Personal/src/Ejemplos/ejemplos_codigos_python_jepc/capturaPaginasWebs/venv/bin/python -c \"import playwright; print\\('ok'\\)\" 2>&1)",
+      "Bash(venv/bin/python generar_docs.py)",
+      "Bash(source venv/bin/activate)",
+      "Bash(python generar_docs.py)",
+      "Bash(for d:*)",
+      "Bash(do echo:*)",
+      "Read(//media/centinela/NOMADA/1_Personal/src/Ejemplos/ejemplos_codigos_python_jepc/capturaPaginasWebs/**)",
+      "Read(//media/centinela/NOMADA/1_Personal/src/Ejemplos/ejemplos_codigos_python_jepc/capturaPaginasWebs/$d/**)",
+      "Bash(done)",
+      "Bash(python src/capturador.py --solo-analizar)",
+      "Bash(git config:*)"
+    ]
+  }
+}

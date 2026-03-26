@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Historial de Capturas</title>
+  <style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: system-ui, -apple-system, sans-serif; background: #f0f2f5; color: #333; padding: 2rem; }
+h1 { font-size: 1.4rem; margin-bottom: .3rem; }
+.meta { color: #888; font-size: .82rem; margin-bottom: 1.5rem; }
+.stats { display: flex; gap: 1rem; margin-bottom: 2rem; flex-wrap: wrap; }
+.stat { background: #fff; border-radius: 8px; padding: .8rem 1.4rem; box-shadow: 0 1px 4px rgba(0,0,0,.08); text-align: center; }
+.stat .num { font-size: 1.8rem; font-weight: 700; display: block; }
+.stat .lbl { font-size: .78rem; color: #888; }
+.cards { display: flex; flex-direction: column; gap: .8rem; }
+.card { background: #fff; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,.08); display: flex; overflow: hidden; }
+.card-thumb { width: 180px; min-height: 110px; flex-shrink: 0; background: #eee; position: relative; }
+.card-thumb img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
+.placeholder { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; color: #bbb; font-size: .78rem; }
+.card-body { padding: .9rem 1.1rem; flex: 1; display: flex; flex-direction: column; gap: .3rem; }
+.card-head { display: flex; align-items: center; gap: .6rem; }
+.badge { display: inline-block; padding: .15rem .55rem; border-radius: 4px; font-size: .72rem; font-weight: 600; }
+.nueva  { background: #cce5ff; color: #004085; }
+.previa { background: #e2e3e5; color: #383d41; }
+.fecha { font-size: .78rem; color: #999; }
+.card-url { font-size: .82rem; word-break: break-all; }
+.card-url a { color: #0066cc; text-decoration: none; }
+.card-url a:hover { text-decoration: underline; }
+.card-title { font-weight: 600; font-size: .88rem; }
+.card-links { display: flex; gap: .4rem; flex-wrap: wrap; margin-top: .3rem; }
+.card-links a { font-size: .74rem; background: #f0f0f0; padding: .2rem .55rem; border-radius: 4px; text-decoration: none; color: #444; }
+.card-links a:hover { background: #ddd; }
+.sep { border: none; border-top: 2px dashed #e0e0e0; margin: .4rem 0; }
+</style>
+</head>
+<body>
+  <h1>Historial de Capturas</h1>
+  <p class="meta">Actualizado: 2026-03-26 00:29:30 &nbsp;|&nbsp; Carpeta: capturas/</p>
+  <div class="stats">
+    <div class="stat"><span class="num">12</span><span class="lbl">Capturas totales</span></div>
+    <div class="stat"><span class="num">4</span><span class="lbl">Sitios únicos</span></div>
+    <div class="stat"><span class="num">2</span><span class="lbl">Sesiones</span></div>
+  </div>
+  <div class="cards">
+    <div class="card">
+      <div class="card-thumb"><img src="conalep.qroo.gob.mx_20260326_002922/screenshot.png" loading="lazy" alt=""></div>
+      <div class="card-body">
+        <div class="card-head"><span class="badge nueva">🆕 Esta sesión</span><span class="fecha">2026-03-26 00:29:28</span></div>
+        <div class="card-url"><a href="https://conalep.qroo.gob.mx/areas-directivas/" target="_blank">https://conalep.qroo.gob.mx/areas-directivas/</a></div>
+        <div class="card-title">Áreas Directivas - Colegio de Educación Profesional Técnica del Estado de Quintana Roo</div>
+        <div class="card-links"><a href="conalep.qroo.gob.mx_20260326_002922/screenshot.png">imagen</a> <a href="conalep.qroo.gob.mx_20260326_002922/documento.pdf">pdf</a> <a href="conalep.qroo.gob.mx_20260326_002922/pagina.html">html</a> <a href="conalep.qroo.gob.mx_20260326_002922/texto.txt">texto</a></div>
+      </div>
+    </div>
+    <hr class="sep">
+    <div class="card">
+      <div class="card-thumb"><img src="conalep.qroo.gob.mx_20260326_002914/screenshot.png" loading="lazy" alt=""></div>
+      <div class="card-body">
+        <div class="card-head"><span class="badge nueva">🆕 Esta sesión</span><span class="fecha">2026-03-26 00:29:16</span></div>
+        <div class="card-url"><a href="https://conalep.qroo.gob.mx/directorio-de-funcionarios/" target="_blank">https://conalep.qroo.gob.mx/directorio-de-funcionarios/</a></div>
+        <div class="card-title">Directorio de Funcionarios - Colegio de Educación Profesional Técnica del Estado de Quintana Roo</div>
+        <div class="card-links"><a href="conalep.qroo.gob.mx_20260326_002914/screenshot.png">imagen</a> <a href="conalep.qroo.gob.mx_20260326_002914/documento.pdf">pdf</a> <a href="conalep.qroo.gob.mx_20260326_002914/pagina.html">html</a> <a href="conalep.qroo.gob.mx_20260326_002914/texto.txt">texto</a></div>
+      </div>
+    </div>
+    <hr class="sep">
+    <div class="card">
+      <div class="card-thumb"><img src="conalep.qroo.gob.mx_20260326_002902/screenshot.png" loading="lazy" alt=""></div>
+      <div class="card-body">
+        <div class="card-head"><span class="badge nueva">🆕 Esta sesión</span><span class="fecha">2026-03-26 00:29:08</span></div>
+        <div class="card-url"><a href="https://conalep.qroo.gob.mx/" target="_blank">https://conalep.qroo.gob.mx/</a></div>
+        <div class="card-title">Inicio - Colegio de Educación Profesional Técnica del Estado de Quintana Roo</div>
+        <div class="card-links"><a href="conalep.qroo.gob.mx_20260326_002902/screenshot.png">imagen</a> <a href="conalep.qroo.gob.mx_20260326_002902/documento.pdf">pdf</a> <a href="conalep.qroo.gob.mx_20260326_002902/pagina.html">html</a> <a href="conalep.qroo.gob.mx_20260326_002902/texto.txt">texto</a></div>
+      </div>
+    </div>
+    <hr class="sep">
+    <div class="card">
+      <div class="card-thumb"><img src="www.nhc.noaa.gov_20260326_002859/screenshot.png" loading="lazy" alt=""></div>
+      <div class="card-body">
+        <div class="card-head"><span class="badge nueva">🆕 Esta sesión</span><span class="fecha">2026-03-26 00:29:01</span></div>
+        <div class="card-url"><a href="https://www.nhc.noaa.gov/" target="_blank">https://www.nhc.noaa.gov/</a></div>
+        <div class="card-title"></div>
+        <div class="card-links"><a href="www.nhc.noaa.gov_20260326_002859/screenshot.png">imagen</a> <a href="www.nhc.noaa.gov_20260326_002859/documento.pdf">pdf</a> <a href="www.nhc.noaa.gov_20260326_002859/pagina.html">html</a> <a href="www.nhc.noaa.gov_20260326_002859/texto.txt">texto</a></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-thumb"><img src="www.nhc.noaa.gov_20260325_231709/screenshot.png" loading="lazy" alt=""></div>
+      <div class="card-body">
+        <div class="card-head"><span class="badge previa">📁 Sesión anterior</span><span class="fecha">2026-03-25 23:17:11</span></div>
+        <div class="card-url"><a href="https://www.nhc.noaa.gov/" target="_blank">https://www.nhc.noaa.gov/</a></div>
+        <div class="card-title"></div>
+        <div class="card-links"><a href="www.nhc.noaa.gov_20260325_231709/screenshot.png">imagen</a> <a href="www.nhc.noaa.gov_20260325_231709/documento.pdf">pdf</a> <a href="www.nhc.noaa.gov_20260325_231709/pagina.html">html</a> <a href="www.nhc.noaa.gov_20260325_231709/texto.txt">texto</a></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-thumb"><img src="www.nhc.noaa.gov_20260325_230344/screenshot.png" loading="lazy" alt=""></div>
+      <div class="card-body">
+        <div class="card-head"><span class="badge previa">📁 Sesión anterior</span><span class="fecha">2026-03-25 23:03:46</span></div>
+        <div class="card-url"><a href="https://www.nhc.noaa.gov/" target="_blank">https://www.nhc.noaa.gov/</a></div>
+        <div class="card-title"></div>
+        <div class="card-links"><a href="www.nhc.noaa.gov_20260325_230344/screenshot.png">imagen</a> <a href="www.nhc.noaa.gov_20260325_230344/documento.pdf">pdf</a> <a href="www.nhc.noaa.gov_20260325_230344/pagina.html">html</a> <a href="www.nhc.noaa.gov_20260325_230344/texto.txt">texto</a></div>
+      </div>
+    </div>
+    <hr class="sep">
+    <div class="card">
+      <div class="card-thumb"><img src="conalep.qroo.gob.mx_20260325_223537/screenshot.png" loading="lazy" alt=""></div>
+      <div class="card-body">
+        <div class="card-head"><span class="badge previa">📁 Sesión anterior</span><span class="fecha">2026-03-25 22:35:42</span></div>
+        <div class="card-url"><a href="https://conalep.qroo.gob.mx/" target="_blank">https://conalep.qroo.gob.mx/</a></div>
+        <div class="card-title">Inicio - Colegio de Educación Profesional Técnica del Estado de Quintana Roo</div>
+        <div class="card-links"><a href="conalep.qroo.gob.mx_20260325_223537/screenshot.png">imagen</a> <a href="conalep.qroo.gob.mx_20260325_223537/documento.pdf">pdf</a> <a href="conalep.qroo.gob.mx_20260325_223537/pagina.html">html</a> <a href="conalep.qroo.gob.mx_20260325_223537/texto.txt">texto</a></div>
+      </div>
+    </div>
+    <hr class="sep">
+    <div class="card">
+      <div class="card-thumb"><img src="www.nhc.noaa.gov_20260325_223529/screenshot.png" loading="lazy" alt=""></div>
+      <div class="card-body">
+        <div class="card-head"><span class="badge previa">📁 Sesión anterior</span><span class="fecha">2026-03-25 22:35:31</span></div>
+        <div class="card-url"><a href="https://www.nhc.noaa.gov/" target="_blank">https://www.nhc.noaa.gov/</a></div>
+        <div class="card-title"></div>
+        <div class="card-links"><a href="www.nhc.noaa.gov_20260325_223529/screenshot.png">imagen</a> <a href="www.nhc.noaa.gov_20260325_223529/documento.pdf">pdf</a> <a href="www.nhc.noaa.gov_20260325_223529/pagina.html">html</a> <a href="www.nhc.noaa.gov_20260325_223529/texto.txt">texto</a></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-thumb"><img src="www.nhc.noaa.gov_20260325_210238/screenshot.png" loading="lazy" alt=""></div>
+      <div class="card-body">
+        <div class="card-head"><span class="badge previa">📁 Sesión anterior</span><span class="fecha">2026-03-25 21:02:40</span></div>
+        <div class="card-url"><a href="https://www.nhc.noaa.gov/" target="_blank">https://www.nhc.noaa.gov/</a></div>
+        <div class="card-title"></div>
+        <div class="card-links"><a href="www.nhc.noaa.gov_20260325_210238/screenshot.png">imagen</a> <a href="www.nhc.noaa.gov_20260325_210238/documento.pdf">pdf</a> <a href="www.nhc.noaa.gov_20260325_210238/pagina.html">html</a> <a href="www.nhc.noaa.gov_20260325_210238/texto.txt">texto</a></div>
+      </div>
+    </div>
+    <hr class="sep">
+    <div class="card">
+      <div class="card-thumb"><img src="conalep.qroo.gob.mx_20260325_205150/screenshot.png" loading="lazy" alt=""></div>
+      <div class="card-body">
+        <div class="card-head"><span class="badge previa">📁 Sesión anterior</span><span class="fecha">2026-03-25 20:51:56</span></div>
+        <div class="card-url"><a href="https://conalep.qroo.gob.mx/areas-directivas/" target="_blank">https://conalep.qroo.gob.mx/areas-directivas/</a></div>
+        <div class="card-title">Áreas Directivas - Colegio de Educación Profesional Técnica del Estado de Quintana Roo</div>
+        <div class="card-links"><a href="conalep.qroo.gob.mx_20260325_205150/screenshot.png">imagen</a> <a href="conalep.qroo.gob.mx_20260325_205150/documento.pdf">pdf</a> <a href="conalep.qroo.gob.mx_20260325_205150/pagina.html">html</a> <a href="conalep.qroo.gob.mx_20260325_205150/texto.txt">texto</a></div>
+      </div>
+    </div>
+    <hr class="sep">
+    <div class="card">
+      <div class="card-thumb"><img src="conalep.qroo.gob.mx_20260325_205144/screenshot.png" loading="lazy" alt=""></div>
+      <div class="card-body">
+        <div class="card-head"><span class="badge previa">📁 Sesión anterior</span><span class="fecha">2026-03-25 20:51:45</span></div>
+        <div class="card-url"><a href="https://conalep.qroo.gob.mx/directorio-de-funcionarios/" target="_blank">https://conalep.qroo.gob.mx/directorio-de-funcionarios/</a></div>
+        <div class="card-title">Directorio de Funcionarios - Colegio de Educación Profesional Técnica del Estado de Quintana Roo</div>
+        <div class="card-links"><a href="conalep.qroo.gob.mx_20260325_205144/screenshot.png">imagen</a> <a href="conalep.qroo.gob.mx_20260325_205144/documento.pdf">pdf</a> <a href="conalep.qroo.gob.mx_20260325_205144/pagina.html">html</a> <a href="conalep.qroo.gob.mx_20260325_205144/texto.txt">texto</a></div>
+      </div>
+    </div>
+    <hr class="sep">
+    <div class="card">
+      <div class="card-thumb"><img src="www.nhc.noaa.gov_20260325_204826/screenshot.png" loading="lazy" alt=""></div>
+      <div class="card-body">
+        <div class="card-head"><span class="badge previa">📁 Sesión anterior</span><span class="fecha">2026-03-25 20:48:28</span></div>
+        <div class="card-url"><a href="https://www.nhc.noaa.gov/" target="_blank">https://www.nhc.noaa.gov/</a></div>
+        <div class="card-title"></div>
+        <div class="card-links"><a href="www.nhc.noaa.gov_20260325_204826/screenshot.png">imagen</a> <a href="www.nhc.noaa.gov_20260325_204826/documento.pdf">pdf</a> <a href="www.nhc.noaa.gov_20260325_204826/pagina.html">html</a> <a href="www.nhc.noaa.gov_20260325_204826/texto.txt">texto</a></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
